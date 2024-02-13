@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    I. What It's All About
+I. What It's All About
 
 Whence come the thousands of photographs used every month by newspapers and magazines?
 
@@ -61,5 +53,3 @@ Success at selling press-photographs does not depend on the size of the town you
 
 --------------------------------------
 An excerpt from the book, "Making Your Camera Pay," by Frederick C. Davis. Copyright 1922, Robert M. McBride & Company, New York. Full book available online at Project Gutenberg (link to https://www.gutenberg.org/files/35709/35709-h/35709-h.htm)
-</body>
-</html>
