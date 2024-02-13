@@ -37,3 +37,27 @@ cite {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+/* pseudo classes */
+/* link means non visited links */
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: brown;
+}
+
+a:visited {
+  color: green;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: black;
+}
+/* tag with class name */
+a.harvard:link {
+  color: lightblue;
+}
