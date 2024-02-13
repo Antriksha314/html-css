@@ -1,0 +1,54 @@
+/* Don't use heght */
+
+body {
+    background-color: #042940;
+    color: white;
+}
+
+div {
+    border: 5px solid;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.box2 {
+    border-color: #ffff;
+    border-style: dotted;
+    /* Box width */
+    width: 60%;
+    background-image: url(http://placekitten.com/200/300);
+    margin-left: 9rem
+}
+
+/* p tags has default margin because of browser set */
+p {
+    text-align: center;
+}
+
+
+/* Blockline elements */
+/* Wild as container as div, p  all strech over web page*/
+
+
+/* Inline elements */
+
+
+
+/* Css units */
+
+/* rem - root element measure, 1 rem - 16px ,
+*/
+/* em units */
+
+h1 {
+    background-color: bisque;
+    padding: 1rem;
+    color: black;
+    margin: 0;
+}
+
+.newunits {
+    background-color: beige;
+    padding: 1rem;
+    color: black;
+}

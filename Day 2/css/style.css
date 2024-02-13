@@ -3,7 +3,7 @@ body {
   /* Font family */
   font-family: Arial, Helvetica, sans-serif;
   /* Background */
-  background-color: #ffffcc;
+  background-color: #9FC131;
 }
 
 img {
@@ -40,7 +40,9 @@ cite {
 
 /* pseudo classes */
 /* link means non visited links */
-a:link {
+/* If you are using these pseudo-classes, they MUST go in the order listed. */
+/* Descendant selector ul is parent  */
+ul a:link {
   font-weight: bold;
   text-decoration: none;
   color: brown;
@@ -57,7 +59,23 @@ a:hover {
   text-decoration: underline;
   background-color: black;
 }
+
 /* tag with class name */
 a.harvard:link {
   color: lightblue;
+}
+
+
+/* Group selectors  */
+/* Same css we giving for some tags and group help us 
+to give tags or class name to use same css on some cases */
+h2 h3 .bigbold{
+  color: orange;
+}
+
+/* Ids in css */
+
+#myid{
+  color: purple;
+  font-weight: bold;
 }
