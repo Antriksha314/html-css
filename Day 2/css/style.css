@@ -1,0 +1,39 @@
+/* My first css */
+body {
+  /* Font family */
+  font-family: Arial, Helvetica, sans-serif;
+  /* Background */
+  background-color: #ffffcc;
+}
+
+img {
+  /* border */
+  border: 10px solid greenyellow;
+}
+
+h1 {
+  /* Border with dotted */
+  border: 5px dotted red;
+}
+
+blockquote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* Font size */
+  /* 1 rem = 16px, m is measure  */
+  font-size: 1rem;
+  /* Font style */
+  font-style: italic;
+  /* text align center our values */
+  text-align: center;
+}
+
+cite {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Class start with . */
+.bigbold {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
