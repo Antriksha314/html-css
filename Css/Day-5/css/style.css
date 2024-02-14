@@ -1,0 +1,16 @@
+/* Flex box all about parent and children */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* flex properties */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+li {
+  border: 2px solid blue;
+  /* flex bases is fitting content data */
+  flex-basis: 10%;
+}

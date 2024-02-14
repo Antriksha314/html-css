@@ -1,0 +1,27 @@
+article {
+  width: 50rem;
+  margin: 0 auto;
+  border: 2px solid red;
+  padding: 0.5rem;
+}
+
+/* clear formula always in parent*/
+article :after {
+  content: "";
+  display: table;
+  /* both means left and right */
+  clear: both;
+}
+
+
+.floatleft {
+  float: left;
+  /* TRBL - Trouble or clockwise */
+  margin: 0 1rem 1rem 0;
+}
+
+.floatright {
+  float: right;
+  /* if you float you mus clear, floating right float outside the border */
+  margin: 1rem 0 1rem 0;
+}
