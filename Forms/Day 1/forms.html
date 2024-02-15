@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Alien Abduction Order Form</title>
+    <link href="css/forms.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        <h1>Alien Abduction Order Form</h1>
+        <p>
+          Fill out the form below to place an order for an alien abduction by
+          one of our fine UFOs.
+        </p>
+        <form>
+          <!-- </fieldset> break form in html -->
+          <fieldset>
+            <!-- Describe title for fieldset or form -->
+            <legend>Your contact information</legend>
+            <!-- for is the id of input -->
+            <label for="fullName">Your name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="name"
+              placeholder="Full name"
+            />
+
+            <!-- tel type keyboard change to number -->
+            <label for="phoneNumber">Phone number</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phone"
+              placeholder="Phone number"
+            />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+          </fieldset>
+          <fieldset>
+            <legend>About your abduction</legend>
+            <label for="date">Requested date</label>
+            <input type="date" id="date" name="date" />
+
+            <label for="quantity"
+              >How many people would you like abducted?</label
+            >
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="10"
+              placeholder="0"
+            />
+
+            <p>What type of UFO do you prefer?</p>
+            <label>
+              <input
+                type="radio"
+                name="ufotype"
+                value="classic"
+                checked
+              />Classic oval UFO
+            </label>
+
+            <label>
+              <input type="radio" name="ufotype" value="starwars" />Star
+              Wars-style Imperial cruiser
+            </label>
+
+            <label>
+              <input type="radio" name="ufotype" value="battlestar" />Battlestar
+              Galactica-style Viper
+            </label>
+
+            <label>
+              <input type="radio" name="ufotype" value="borgstyle" />Borg-style
+              cube
+            </label>
+
+            <label for="type"
+              >What type of abduction experience do you want?</label
+            >
+            <select id="type" name="type">
+              <!-- Add default select -->
+              <option selected>Select one..</option>
+              <option value="tour">Tour of the solar system</option>
+
+              <option value="dinner">Alien dinner and discussion</option>
+              <option value="dance">Alien dance lessons</option>
+
+              <option value="whale">Whale watching</option>
+            </select>
+
+            <label for="request">Special requests:</label>
+            <textarea
+              type="text"
+              id="request"
+              name="request"
+              placeholder="Tell me everything"
+            ></textarea>
+
+            <label for="subscribe">
+              <input type="checkbox" id="subscribe" name="subscribe" checked />
+              Add me to your email list
+            </label>
+          </fieldset>
+        </form>
+      </section>
+      <aside>
+        <h3>Our Location</h3>
+        <address>
+          Frontend Masters &middot; 60 South 6th Street &middot; Suite 3625
+          &middot; Minneapolis, MN 55402
+        </address>
+      </aside>
+    </div>
+  </body>
+</html>
