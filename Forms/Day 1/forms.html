@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Alien Abduction Order Form</title>
     <link href="css/forms.css" rel="stylesheet" />
+    <script src="js/forms.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -13,7 +14,10 @@
           Fill out the form below to place an order for an alien abduction by
           one of our fine UFOs.
         </p>
-        <form>
+        <form
+          method="POST"
+          action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
+        >
           <!-- </fieldset> break form in html -->
           <fieldset>
             <!-- Describe title for fieldset or form -->
@@ -108,6 +112,12 @@
               Add me to your email list
             </label>
           </fieldset>
+          <input
+            type="hidden"
+            name="send_to"
+            value="antriksharattan314@gmail.com"
+          />
+          <button type="submit">Submit</button>
         </form>
       </section>
       <aside>
