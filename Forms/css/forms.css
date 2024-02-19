@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #010626;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  color: white;
+}
+
+section {
+  flex-basis: 57%;
+  margin-right: 10%;
+}
+
+aside {
+  flex-basis: 33%;
+}
+
+p [for="abtype"] {
+  margin: 2rem 0 0 0;
+}
+
+fieldset {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+/* legend inline element */
+legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 0 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
+}
+
+textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+select {
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background-color: #010626;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+/*  not([type="radio"]) where you don't want to give css */
+input:not([type="radio"]):not([type="checkbox"]),
+textarea,
+select {
+  margin: 0 0 0.5rem 0;
+  padding: 0 0.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  width: 15rem;
+  border-radius: 10px;
+}
